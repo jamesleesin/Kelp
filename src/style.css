@@ -1,0 +1,163 @@
+/* Main styles for containers */
+header {
+	height: 150px;
+}
+/* Styling for navigation */
+nav {
+	padding-top: 50px;
+	float: left;
+	width: 250px;
+	height:100%;
+	position:relative;
+}
+/* Styling for main */
+main {
+	margin-left: 300px;
+	padding-top:50px;
+	position: relative;
+	height: auto;
+	margin-bottom: 100px;	
+}
+footer {
+	text-align:center;
+	margin-top:100px;
+	position:relative;
+}
+html,body{
+	height:100%;
+	width: auto;
+}
+
+/* Styling for mobile devices */
+@media screen and (max-width: 600px) {
+	nav{
+		width: 100px;
+	}
+	main{
+		min-width:300px;
+	}
+}
+
+/* Class reference styles */
+div.images{
+	display:inline;
+}
+
+.userreview{
+	border: 4px double;
+}
+
+.userreview p{
+	font-size: large;
+}
+
+.searchresult{
+	border: 4px double;
+	display:block;
+	font-size: 14pt;
+}
+
+/* ID reference styles */
+#userreviewbox{
+	width: auto;
+	height: 200px;
+}
+
+#navigation{
+	border: 4px solid;
+	height: 100%;
+}
+
+#sidebar{
+	border: 4px solid;
+	height: 100%;
+}
+
+#introboxes fieldset{
+	width: 400px;
+	height: 200px;
+	border: 4px double;
+	display: inline;
+	background-color: lightgreen;
+	vertical-align:top;
+}
+
+#banner{
+	width: auto;
+	height: 150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#accountinfo{
+	border: 4px double;
+	display: block;
+	color: #000000;
+	font-size: 15pt;
+}
+
+#newlocationinfo{
+	border: 4px double;
+	display: block;
+	color: #000000;
+	font-size: 15pt;
+}
+
+#noaccount{
+	font-size: 10pt;
+	font-style: italic;
+}
+#orTag{
+	font-size: 10pt;
+	font-style: italic;
+}
+#searchrating{
+	width:150px;
+}
+
+#footertext{
+	font-size:10pt;
+}
+
+#reviewhead{
+	font-size:20px;
+}
+
+/* Map size */
+#livemap, #singlemap{
+	min-height:400px;
+	min-width:400px;
+	height: 50%;
+	width: 50%;
+}
+
+/* Main styling */
+body{
+	background-image: url("Images/background.png");
+	background-repeat: repeat;
+	font-family: Helvetica;
+}
+
+/* Table properties */
+table, th, td{
+	border: 1px solid black;
+	text-align: left;
+}
+th{
+	width: 100px;
+	padding-left:10px;
+}
+td{
+	width: 200px;
+	font-size: 11pt;
+	padding-left:10px;
+}
+
+/* unvisited links */
+a:link {
+	color: blue;
+}
+/* previously visited links */
+a:visited {
+	color: purple;
+}
